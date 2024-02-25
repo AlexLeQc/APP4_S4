@@ -140,7 +140,7 @@ begin
 	
 	o_RegDst 		<= '1' when i_Op = OP_Rtype else '0';
 	
-	o_ALUSrc 		<= '0' when i_Op = OP_Rtype or i_Op = OP_BEQ else '1';
+	o_ALUSrc 		<= '0' when i_Op = OP_Rtype or i_Op = OP_BEQ or i_Op = OP_ADDV else '1';
 	o_Branch 		<= '1' when i_Op = OP_BEQ   else '0';
 	o_MemRead 		<= '1' when i_Op = OP_LW    or i_Op = OP_LWV else '0';
 	o_MemWrite 		<= '1' when i_Op = OP_SW    or i_Op = OP_SWV else '0';
