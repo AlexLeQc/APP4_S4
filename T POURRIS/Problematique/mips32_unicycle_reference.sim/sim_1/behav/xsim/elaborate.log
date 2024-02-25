@@ -1,0 +1,25 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav

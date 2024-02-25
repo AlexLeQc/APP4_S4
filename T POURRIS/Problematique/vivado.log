@@ -1,0 +1,2069 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Feb 24 17:07:07 2024
+# Process ID: 5528
+# Current directory: C:/Users/rapha/Bureau/UNI/APP3/Problematique
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14276 C:\Users\rapha\Bureau\UNI\APP3\Problematique\mips32_unicycle_reference.xpr
+# Log file: C:/Users/rapha/Bureau/UNI/APP3/Problematique/vivado.log
+# Journal file: C:/Users/rapha/Bureau/UNI/APP3/Problematique\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.gen/sources_1', nor could it be found using path 'C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+reorder_files -after C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'alu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj alu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot alu_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/alu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 19:44:34 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "alu_tb_behav -key {Behavioral:sim_1:Functional:alu_tb} -tclbatch {alu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source alu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /alu_tb/UUT/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'alu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1118.410 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top mips_unicycle_top [current_fileset]
+set_property top mips_unicycle_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 128 elements ; formal 'i_a' expects 32 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:227]
+ERROR: [VRFC 10-3311] expression has 128 elements ; formal 'o_result' expects 32 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:231]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 128 elements ; formal 'o_result' expects 32 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:231]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 32 elements ; expected 128 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:288]
+ERROR: [VRFC 10-664] expression has 32 elements ; expected 128 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:289]
+ERROR: [VRFC 10-664] expression has 32 elements ; expected 128 [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:290]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8440] illegal selection of element 'inst_registres.regsv' in external name [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd:51]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8440] illegal selection of element 'inst_registres.regsv' in external name [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd:51]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+ERROR: [VRFC 10-2989] 'regsvecteur' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:55]
+ERROR: [VRFC 10-2989] 'regsvecteur' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:71]
+ERROR: [VRFC 10-2989] 'regsvecteur' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:65]
+ERROR: [VRFC 10-2989] 'regsvecteur' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:84]
+ERROR: [VRFC 10-2989] 'regsvecteur' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:78]
+ERROR: [VRFC 10-3782] unit 'comport' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd:32]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8440] illegal selection of element 'inst_registres.regsv' in external name [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd:51]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 20:15:51 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 250 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1118.410 ; gain = 0.000
+run all
+$stop called at time : 410 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 250 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__105  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 250 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:121]
+ERROR: [VRFC 10-2989] 'aluf_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:120]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:46]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:121]
+ERROR: [VRFC 10-2989] 'aluf_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:120]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:46]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:103]
+ERROR: [VRFC 10-3782] unit 'comport' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:53]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:103]
+ERROR: [VRFC 10-3782] unit 'comport' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:53]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_vec'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:103]
+ERROR: [VRFC 10-3782] unit 'comport' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd:53]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/new/ALU_vec.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+ERROR: [VRFC 10-2989] 'alu_miv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd:59]
+ERROR: [VRFC 10-3782] unit 'testbench' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd:8]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 21:29:03 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 250 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1134.309 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 22:13:57 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1134.309 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 22:25:30 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1354.863 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 240 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 22:41:39 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.863 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+run all
+$stop called at time : 1050 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 22:51:26 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1354.863 ; gain = 0.000
+run all
+$stop called at time : 1050 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__97  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+ERROR: [VRFC 10-2989] 'alu_addv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd:80]
+ERROR: [VRFC 10-3782] unit 'comport' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd:32]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+ERROR: [VRFC 10-2989] 'alu_addv' is not declared [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd:51]
+ERROR: [VRFC 10-3782] unit 'testbench' ignored due to previous errors [C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd:8]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 23:06:56 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.863 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1354.863 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 23:15:35 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1354.863 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.863 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.863 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.863 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/new/tb_ALU.vhd
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_unicycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xvhdl --relax -prj mips_unicycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+"xelab -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mips32_package
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.controleur [controleur_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemInstructions [meminstructions_default]
+Compiling architecture comport of entity xil_defaultlib.BancRegistres [bancregistres_default]
+Compiling architecture comport of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemDonnees [memdonnees_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_datapath_unicycle [mips_datapath_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_top [mips_unicycle_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.monitor_unicycle [monitor_unicycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_unicycle_tb
+Built simulation snapshot mips_unicycle_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim/xsim.dir/mips_unicycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 24 23:59:37 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_unicycle_tb_behav -key {Behavioral:sim_1:Functional:mips_unicycle_tb} -tclbatch {mips_unicycle_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source mips_unicycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu4/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu3/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu2/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /mips_unicycle_tb/dut/inst_Datapath/inst_Alu/line__87  File: C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd
+$stop called at time : 570 ns : File "C:/Users/rapha/Bureau/UNI/APP3/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" Line 65
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_unicycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1354.863 ; gain = 0.000

@@ -1,0 +1,19 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MIPS32_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controleur'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemInstructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemInstructions'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/MemDonnees.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemDonnees'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/registres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BancRegistres'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_datapath_unicycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sources_1/imports/mips_unicycle_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/mips_unicycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_unicycle_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/Marcheplz/T POURRIS/Problematique/mips32_unicycle_reference.srcs/sim_1/imports/verif/monitor_unicycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'monitor_unicycle'
